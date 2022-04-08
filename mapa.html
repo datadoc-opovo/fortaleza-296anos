@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Fortaleza em Música - DATADOC</title>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/4.3.2/iframeResizer.contentWindow.min.js" integrity="sha512-14SY6teTzhrLWeL55Q4uCyxr6GQOxF3pEoMxo2mBxXwPRikdMtzKMYWy2B5Lqjr6PHHoGOxZgPaxUYKQrSmu0A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	
+</head>
+<body>
+	
+	<div id="observablehq-viewof-selected_artista-c1fe17bd"></div>
+	<div id="observablehq-viewof-selected_bairro-c1fe17bd"></div>
+
+	<div id="observablehq-chart-c1fe17bd"></div>
+	
+	<div id="observablehq-fonte-c1fe17bd"></div>
+
+<script type="module">
+import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
+import define from "https://api.observablehq.com/d/8acc04c8196c4c61.js?v=3";
+new Runtime().module(define, name => {
+  if (name === "chart") return new Inspector(document.querySelector("#observablehq-chart-c1fe17bd"));
+  if (name === "viewof selected_artista") return new Inspector(document.querySelector("#observablehq-viewof-selected_artista-c1fe17bd"));
+  if (name === "viewof selected_bairro") return new Inspector(document.querySelector("#observablehq-viewof-selected_bairro-c1fe17bd"));
+  if (name === "fonte") return new Inspector(document.querySelector("#observablehq-fonte-c1fe17bd"));
+  return ["filteredPoints"].includes(name);
+});
+</script>
+
+</body>
+</html>
