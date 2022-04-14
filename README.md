@@ -43,7 +43,7 @@ Em ambos os casos, buscou-se preservar palavras compostas e nomes de pessoas por
  **_Visualizações_**
 - Nuvem de palavras com [termos mais recorrentes nas letras de música](https://public.flourish.studio/visualisation/9331125/)
 - Nuvem de palavras dos [termos mais recorrentes nas falas dos artistas sobre inspiração](https://public.flourish.studio/visualisation/9331396/)
-- Mapa de Fortaleza: [músicas catalogadas no App Fortaleza em Música]()
+- Mapa de Fortaleza: [músicas catalogadas no App Fortaleza em Música](https://observablehq.com/embed/8acc04c8196c4c61?cells=chart%2Cfonte%2Cviewof+selected_artista%2Cviewof+selected_bairro)
 - [Bairros mais cantados nas músicas sobre Fortaleza](https://public.flourish.studio/visualisation/9333060/)
 - [Músicas mais assistidas no YouTube](https://public.flourish.studio/visualisation/9385338/)
 
