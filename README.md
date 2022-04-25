@@ -37,7 +37,7 @@ Em ambos os casos, buscou-se preservar palavras compostas e nomes de pessoas por
 **_Dataframes_**
  - `df_nuvem_palavras_geral.csv`: palavras mais recorrentes nas letras das músicas;
  - `df_nuvem_inspiracao.csv`: palavras mais recorrentes nas falas dos artistas sobre inspiração para a música;
- - `arquivo_bairros_fortaleza`: quantidade de músicas referente a cada bairro de Fortaleza
+ - `df_musicas_por_bairros.csv`: quantidade de músicas referente a cada bairro de Fortaleza
  - `10mais.csv`: ranking das métricas de cada vídeo no YouTube
  
  **_Visualizações_**
